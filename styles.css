@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/* MENU */
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+/* SLIDER DE IMAGENES */
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+/*  INFORMACION ARUINO  */
+
+#objetivo-proyecto-padre{
+    width: 80%;
+    margin: 0 10%;
+}
+
+#objetivo-proyecto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#data-proyecto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+    width: 90%;
+}
+
+/*  Separación de las car arduino  */
+
+#cartas-proyecto {
+    margin: 10px;
+    margin-left: 73px;
+}
+
+#ashe {
+    text-align: center;
+}
+
+.circuito-1 {
+  width: 70%;
+}
+
+.video-explicativo {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.video-explicativo iframe {
+    height: 100%;
+    width: 75%;
+}
+
+#img-proyecto{
+    width: 100%;
+}
+
+/*  INSTITUCIÓN  */
+
+#Establecimiento{
+    margin: 0 6%;
+}
+
+.ContenedorEstablecimiento {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.normalDelete{
+    display: none;
+}
+.ImagenEscuela {
+    grid-row: 1/3;
+    grid-column: 2/3;
+    width: 97.5%;
+    height: auto;
+    vertical-align: top;
+    border-radius: 10px;
+}
+
+.ParrafoHistoria{
+    font-size: 2.3vh;
+    grid-column: 1/2;
+    vertical-align: top;
+    width: 97.5%;
+    margin: 0 10px 0 0;
+}
+
+p {
+    text-align: justify;
+}
+
+#Integrantes-1{
+    margin-top: 10vh;
+}
+
+/* MEDIA QUERIES PANTALLA XX-LG */
+
+@media (max-width:1400px) {
+    #cartas-proyecto {
+        margin: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    * {
+        font-size: 99%;
+    }
+
+    .ContenedorEstablecimiento {
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+    .ParrafoHistoria{
+        grid-column: 1/3;
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+    .ImagenEscuela {
+        margin-bottom: 4vh;
+        grid-column: 1/3;
+        width: 100%;
+        height: 50vh;
+        border-radius: 10px;
+    }
+}
+
+/* MEDIA QUERIES PANTALLA X-LG */
+
+@media (max-width:1200px) {
+    #cartas-proyecto {
+        margin: 35px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+/* MEDIA QUERIES PANTALLA LG */
+
+
+@media (max-width:992px) {
+    #cartas-proyecto {
+        margin-left: 3px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .circuito-1 {
+        width: 200px;
+    }
+}
+
+/* MEDIA QUERIES PANTALLA MD */
+
+@media (max-width:768px) {
+    #cartas-proyecto {
+        margin-left: 95px;
+        width: 70%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .circuito-1 {
+        width: auto;
+    }
+
+    #media{
+        display: none;
+    }
+
+    .ImagenEscuela {
+        margin-bottom: 4vh;
+        grid-column: 1/3;
+        width: 100%;
+        height: 30vh;
+        border-radius: 10px;
+    }
+}
+
+/* MEDIA QUERIES PANTALLA SM */
+
+@media (max-width:576px) {
+    #intro {
+        width: 90% !important;
+    }
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+    #cartas-proyecto {
+        margin: 0px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: auto;
+        height: auto;
+    }
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    .circuito-1 {
+        width: auto;
+    }
+
+    .video-explicativo {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .video-explicativo iframe {
+        height: 100%;
+        width: 75%;
+    }
+}

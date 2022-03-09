@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Customer CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!--  Customer Js -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_33aSpdeItOcKQvQyS4ZUR");
+    })();
+  </script>
+
+  <title>Cmm Dreamer</title>
+</head>
+
+<body>
+
+  <!-- ====================================================================================== -->
+  <!-- ======================================= ENCABEZADO ======================================= -->
+  <!-- ====================================================================================== -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 fixed-top" id="menu">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#carouselExampleIndicators"><span class="text-primary fs-5 fw-bold"> CMM Dreamer
+        </span></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#carouselExampleIndicators">Inicio</a>
+          <a class="nav-link" href="#bebidas">Bebidas</a>
+          <a class="nav-link" href="#data-proyecto">Componentes</a>
+          <a class="nav-link" href="#objetivo-proyecto">Info - Proyecto</a>
+          <a class="nav-link" href="#Establecimiento">Establecimiento</a>
+          <a class="nav-link" href="#nosotros">Sobre Nosotros</a>
+          <a class="nav-link" href="#contenedor-formulario">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ====================================================================================== -->
+  <!-- ======================================= SLIDER DE IMAGENES ================================ -->
+  <!-- ====================================================================================== -->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="./IMG/bebidas1.jpg!d" class="d-block w-100" alt="bebidasA1">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./IMG/bebidas2.jpg!d" class="d-block w-100" alt="bebidasA2">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./IMG/bebidas3.jpg!d" class="d-block w-100" alt="bebidasA3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- ====================================================================================== -->
+  <!-- ======================================= INTRO ======================================= -->
+  <!-- ====================================================================================== -->
+
+  <section class="w-50 mx-auto text-center pt-5" id="intro">
+    <h1 class="p-3 fs-2 border-top border-3">Todas tus bebidas preferidas<span class="text-primary"> A un botón</span>
+    </h1>
+    <p class="p-3 fs-4"><span class="text-primary">CMM Dreamer</span> Es lo que buscas, ofreciendo tragos con tan solo
+      un botón. Gran versatilidad a la hora de tener invitados en su hogar o espacio de desarrollo donde desee
+      utilizarla.</p>
+  </section>
+
+  <!-- ====================================================================================== -->
+  <!-- ======================================= DESCRIPCION DE BEBIDAS =========================== -->
+  <!-- ====================================================================================== -->
+
+  <section class="container-fluid" id="bebidas">
+    <div class="row w-75 mx-auto servicio-fila">
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+        <img src="IMG/bebida-2.png" alt="bebidasB1" width="180" height="160">
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">Vodka + Jugo</h3>
+          <p class="px-4">- 1 vaso preferiblemente largo. <br> - 2 onzas o 3 partes de vodka. <br> - 5 onzas o 7 partes
+            de jugo de naranja preferiblemente natural.<br> - Hielo.</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+        <img src="IMG/bebida-3.png" alt="bebidasB1" width="180" height="160">
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">Campari + Jugo</h3>
+          <p class="px-4">- 1 vaso preferiblemente ancho <br> - 2 onzas o 3 partes de campari. <br> - 5 onzas o 7 partes
+            de jugo de naranja preferiblemente natural.<br> - Hielo.</p>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row w-75 mx-auto servicio-fila">
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+        <img src="IMG/bebida-1.png" alt="bebidasB1" width="180" height="160">
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">Gin Tonic + Agua Tonica</h3>
+          <p class="px-4">- 1 copa <br> - 2 onzas o 3 partes de gin. <br> - 5 onzas o 7 partes de tónica.<br> - Hielo.
+            <br> -Menta
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+        <img src="IMG/bebida-4.png" alt="bebidasB1" width="180" height="160">
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">Fernet + Coca</h3>
+          <p class="px-4">- 1 vaso de buen tamaño <br> - 3 onzas o 4 partes de fernet. <br> - 4 onzas o 6 partes de cola
+            preferentemente Coca.<br> - Hielo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====================================================================================== -->
+  <!-- ======================================= INFO PROYECTO ==================================== -->
+  <!-- ====================================================================================== -->
+  <br>
+  <section>
+    <div>
+      <h2 class="text-center w-50 mx-auto fw-bold p-3 fs-2 border-top border-3">Componentes</h2>
+    </div>
+
+    <section class="container-fluid w-75" id="data-proyecto">
+      <div class="card text-black " id="cartas-proyecto">
+        <img src="IMG/arduino.jpg" class="card-img" alt="" width="200" height="">
+        <div class="card-img-overlay">
+          <h5 class="card-title" id="media">Arduino Mega </h5>
+        </div>
+      </div>
+      <div class="card text-black " id="cartas-proyecto">
+        <img src="IMG/minibomba.jpg" class="card-img" alt="" width="200" height="">
+        <div class="card-img-overlay">
+          <h5 class="card-title" id="media">Mini Bomba </h5>
+        </div>
+      </div>
+      <div class="card text-black " id="cartas-proyecto">
+        <img src="IMG/rele.jpg" class="card-img" alt="" width="200" height="">
+        <div class="card-img-overlay">
+          <h5 class="card-title" id="media">Relés </h5>
+        </div>
+      </div>
+
+
+      <div class="card text-black " id="cartas-proyecto">
+        <img src="IMG/boton.jpg" class="card-img" alt="" width="200" height="">
+        <div class="card-img-overlay">
+          <h5 class="card-title" id="media">Botones </h5>
+        </div>
+      </div>
+      <div class="card text-black " id="cartas-proyecto">
+        <img src="IMG/display.jpg" class="card-img" alt="" width="200" height="">
+        <div class="card-img-overlay">
+          <h5 class="card-title" id="media">Display lcd </h5>
+        </div>
+      </div>
+      <div class="card text-black " id="cartas-proyecto">
+        <img src="IMG/manguerita.jpg" class="card-img" alt="" width="200" height="">
+        <div class="card-img-overlay">
+          <h5 class="card-title" id="media">Manguera </h5>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- ====================================================================================== -->
+  <!-- ======================================= INFORMACION PROYECTO ======================================= -->
+  <!-- ====================================================================================== -->
+  <section class="bg-light" id="objetivo-proyecto-padre">
+    <div id="objetivo-proyecto">
+      <h2 class="text-center w-50 mx-auto fw-bold p-3 fs-2 border-top border-3">Información sobre nuestro proyecto
+      </h2>
+      <p class="text-center p-3 fs-4">Nuestro proyecto se trata de una <span class="text-primary"> cocktail macking
+          machine (CMM) </span> la cual consiste
+        en preparar tragos de manera automática seleccionándolos de manera manual en un tablero con botones conectado
+        al
+        Arduino.</p>
+      <h3 class="text-center">Objetivo del proyecto</h3>
+      <p class="text-center p-3 fs-4">El objetivo principal de este proyecto es otorgar la posibilidad de disfrutar
+        tragos sin la necesidad de
+        conocimiento sobre como armarlos tan solo eligiendo el que usted desee con la <span
+          class="text-primary">CMM.</span></p>
+      <p class="text-center p-3 fs-4">La misma posee un circuito por medio de <span class="text-primary">RELAY</span>,
+        estos suministran energía a las minibombas externas las cuales proveen el liquído al vaso a través de
+        mangueras que lo transportarán hasta un mismo lugar en donde será servida la bebida. La bebida a elegir
+        se selecciona entre las opciones de la pantalla.</p>
+      <div class="circuito-1">
+        <img class="bg-light" id="img-proyecto" src="IMG/circuit.png">
+      </div>
+      <div class="video-explicativo">
+        <h3 class="text-center w-50 mx-auto fw-bold p-3 fs-2 border-top border-3">Video de Referencia</h3>
+        <iframe width="100%" src="https://www.youtube.com/embed/bVjU5tq-3Nk" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="video-explicativo">
+        <h3 class="text-center w-50 mx-auto fw-bold p-3 fs-2 border-top border-3">Proyecto Arduino</h3>
+        <iframe width=" 1182" height="665" src="https://www.youtube.com/embed/wpVaTl1oTDA" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+
+  </section>
+  <br><br>
+
+  <!-- ====================================================================================== -->
+  <!-- ======================================= INSTITUCIÓN ======================================= -->
+  <!-- ====================================================================================== -->
+
+  <div class="" id="Establecimiento">
+    <h1>Establecimiento</h1><br>
+    <div class="ContenedorEstablecimiento">
+      <p class="ParrafoHistoria mediaDelete"> En 1890, Rosario era una ciudad de 70.000 habitantes en la
+        cual predominaban las sectas masónicas y las iglesias protestantes. Sólo contaba con una
+        parroquia católica y tres o cuatro sacerdotes. La población estaba desprovista
+        de escuelas católicas y de la transmisión de las enseñanzas evangélicas. Por esta ausencia de
+        enseñanza católica y por ser Rosario una ciudad que quedaba camino a la Patagonia es que los
+        salesianos decidieron venir a nuestra
+        ciudad, posibilitaron esta fundación los grupos misioneros enviados años tras año por San Juan
+        Bosco y por su inmediato sucesor el Beato Miguel Rúa después; a la par de las vocaciones nacidas
+        acá.
+        <br> En el año 1895 y 1897 la obra se trasladó a lo que es actualmente el colegio San José en
+        la manzana formada por las calles Pte. Roca y España, Salta y Jujuy.
+        <br> Desde entonces, la Casa Salesiana “San José” sigue intentando realizar el objetivo
+        propuesto por Don Bosco: la formación de buenos cristianos y honestos ciudadanos, comprometidos
+        en la construcción de un mundo mejor.
+      </p>
+
+      <p class="ParrafoHistoria normalDelete"> En 1890, Rosario era una ciudad de 70.000 habitantes en la
+        cual predominaban las sectas masónicas y las iglesias protestantes. Sólo contaba con una
+        parroquia católica y tres o cuatro sacerdotes. La población estaba desprovista
+        de escuelas católicas y de la transmisión de las enseñanzas evangélicas. Por esta ausencia de
+        enseñanza católica y por ser Rosario una ciudad que quedaba camino a la Patagonia es que los
+        salesianos decidieron venir a nuestra
+        ciudad, posibilitaron esta fundación los grupos misioneros enviados años tras año por San Juan
+        Bosco y por su inmediato sucesor el Beato Miguel Rúa después; a la par de las vocaciones nacidas
+        acá.
+      </p>
+      <p class="ParrafoHistoria normalDelete">En el año 1895 y 1897 la obra se trasladó a lo que es
+        actualmente el colegio San José en la manzana formada por las calles Pte. Roca y España, Salta y
+        Jujuy.
+        <br><br> Desde entonces, la Casa Salesiana “San José” sigue intentando realizar el objetivo
+        propuesto por Don Bosco: la formación de buenos cristianos y honestos ciudadanos, comprometidos
+        en la construcción de un mundo mejor.
+      </p>
+      <img src="IMG/SanJose.JPG" width="4032" height="3024" class="ImagenEscuela">
+    </div>
+  </div>
+
+  <!-- ====================================================================================== -->
+  <!-- ======================================= SOBRE NOSOTROS ======================================= -->
+  <!-- ====================================================================================== -->
+
+  <div>
+    <h2 class="text-center w-50 mx-auto fw-bold p-3 fs-2 border-top border-3" id="Integrantes-1">Integrantes</h2>
+  </div>
+
+  <section class="container-fluid" id="nosotros">
+    <div class="row w-50 mx-auto text-center pt-5">
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5">
+        <div class="card" style="width: 18rem;">
+          <img src="IMG/rubia.jpg" class="card-img-top" alt="Cominotti">
+          <div class="card-body">
+            <h5 class="card-title">Franco Cominotti</h5>
+            <p class="card-text">Alumno del colegio San Jose trabajando actualmente en un proyecto de bebidas.</p>
+            <a href="https://www.instagram.com/fran_cominotti/" class="btn btn-primary" target="_blank">Visita mi
+              Instagram</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5">
+        <div class="card" style="width: 18rem;">
+          <img src="IMG/dipa.jpg" class="card-img-top" alt="Di Pangrazio">
+          <div class="card-body">
+            <h5 class="card-title">Franco Di Pangrazio</h5>
+            <p class="card-text">Alumno del colegio San Jose trabajando actualmente en un proyecto de bebidas.</p>
+            <a href="https://www.instagram.com/fran.diipa/" class="btn btn-primary" target="_blank">Visita mi
+              Instagram</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================================================== -->
+  <!-- ======================================= RESEÑA ======================================= -->
+  <!-- ====================================================================================== -->
+
+  <div class="container bg-light border-radius-0.5" id="contenedor-formulario">
+    <div id="titulo-formulario" class="text-center mb-4">
+      <div><img src="./IMG/support.png" alt="contacto" class="img-fluid"></div>
+      <h2 class="fw-bold">Contactanos</h2>
+      <p class="fs-5">Escuchamos tus reseñas hacia nuestro trabajo.</p>
+    </div>
+    <form method="post">
+      <div class="mb-3">
+        <input type="text" name="name" class="form-control" id="Nombre" placeholder="Nombre" required>
+      </div>
+      <div class="mb-3">
+        <input type="text" name="apellido" class="form-control" id="Apellido" placeholder="Apellido" required>
+      </div>
+      <div class="mb-3">
+        <input type="text" name="numero" class="form-control" id="Numero" placeholder="Número" required>
+      </div>
+      <div class="mb-3">
+        <input type="text" name="mail" class="form-control" id="Correo" placeholder="Example@gmail.com" required>
+      </div>
+      <div class="mb-3">
+        <textarea name="message" class="form-control" id="Mensaje" placeholder="Escribe tu mensaje" rows="3"></textarea>
+      </div>
+      <div class="mb-3" id="ashe">
+        <button onclick="sendmail()" type="button" class="btn btn-primary w-25 fs-5" id="btn">Enviar
+          Mensaje</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Customer Js -->
+  <script src="main.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
